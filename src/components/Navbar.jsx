@@ -1,4 +1,4 @@
-import { Rocket, Phone, Menu } from 'lucide-react';
+import { ShieldCheck, Phone, Menu } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -9,20 +9,20 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#home" className="flex items-center gap-2 group">
-            <span className="p-2 rounded-lg bg-gradient-to-tr from-indigo-500 to-cyan-400 text-white shadow-md shadow-indigo-500/30">
-              <Rocket size={18} />
+            <span className="p-2 rounded-lg bg-gradient-to-tr from-cyan-500 to-indigo-500 text-white shadow-md shadow-cyan-500/30">
+              <ShieldCheck size={18} />
             </span>
             <span className="font-semibold tracking-tight text-white group-hover:text-cyan-200 transition-colors">
-              Solutech Studio
+              PT. Tristan Utama Solutech
             </span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8 text-sm">
-            <a href="#services" className="text-slate-300 hover:text-white transition-colors">Services</a>
-            <a href="#work" className="text-slate-300 hover:text-white transition-colors">Work</a>
-            <a href="#contact" className="text-slate-300 hover:text-white transition-colors">Contact</a>
+            <a href="#services" className="text-slate-300 hover:text-white transition-colors">Layanan</a>
+            <a href="#work" className="text-slate-300 hover:text-white transition-colors">Portofolio</a>
+            <a href="#contact" className="text-slate-300 hover:text-white transition-colors">Kontak</a>
             <a href="#contact" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white text-slate-900 font-medium hover:shadow-lg hover:-translate-y-0.5 transition-all">
-              <Phone size={16} /> Get a Quote
+              <Phone size={16} /> Konsultasi Gratis
             </a>
           </nav>
 
@@ -39,11 +39,11 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden border-t border-white/10 bg-slate-900/80 backdrop-blur">
           <div className="px-4 py-3 space-y-2">
-            <a href="#services" className="block text-slate-200 py-2">Services</a>
-            <a href="#work" className="block text-slate-200 py-2">Work</a>
-            <a href="#contact" className="block text-slate-200 py-2">Contact</a>
+            <a href="#services" className="block text-slate-200 py-2">Layanan</a>
+            <a href="#work" className="block text-slate-200 py-2">Portofolio</a>
+            <a href="#contact" className="block text-slate-200 py-2">Kontak</a>
             <a href="#contact" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white text-slate-900 font-medium">
-              <Phone size={16} /> Get a Quote
+              <Phone size={16} /> Konsultasi Gratis
             </a>
           </div>
         </div>

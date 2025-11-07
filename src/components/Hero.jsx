@@ -10,25 +10,20 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-8 items-center">
         <div className="py-12">
           <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-white/10 text-cyan-200 ring-1 ring-white/20">
-            Modern Tech Studio
+            Integrated IT & Cybersecurity
           </span>
           <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white">
-            Build immersive digital experiences that convert
+            Keamanan. Skalabilitas. Inovasi.
           </h1>
           <p className="mt-5 text-slate-300 text-lg leading-relaxed">
-            We craft fast, scalable websites, apps, and 3D interactions for ambitious brands. From idea to launch, our team delivers premium results with measurable impact.
+            Didirikan pada 2020, PT. Tristan Utama Solutech adalah perusahaan Indonesia yang bergerak di bidang solusi Teknologi Informasi dan Keamanan Siber terintegrasi—membantu bisnis melangkah percaya diri di era digital.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href="#contact" className="px-5 py-3 rounded-full bg-white text-slate-900 font-semibold shadow-lg shadow-cyan-500/20 hover:-translate-y-0.5 transition-transform">Start a project</a>
-            <a href="#work" className="px-5 py-3 rounded-full bg-slate-800 text-white font-semibold ring-1 ring-white/10 hover:bg-slate-700 transition-colors">See our work</a>
+            <a href="#contact" className="px-5 py-3 rounded-full bg-white text-slate-900 font-semibold shadow-lg shadow-cyan-500/20 hover:-translate-y-0.5 transition-transform">Diskusikan Kebutuhan</a>
+            <a href="#services" className="px-5 py-3 rounded-full bg-slate-800 text-white font-semibold ring-1 ring-white/10 hover:bg-slate-700 transition-colors">Lihat Layanan</a>
           </div>
-          <div className="mt-8 flex items-center gap-6 text-sm text-slate-400">
-            <div>
-              <span className="text-white font-semibold">50+ </span>projects shipped
-            </div>
-            <div>
-              <span className="text-white font-semibold"><span className="align-super text-[10px]">$</span>10k+ </span>value builds
-            </div>
+          <div className="mt-8 text-slate-400 text-sm max-w-xl">
+            Dengan tim profesional dan mitra strategis, kami mengubah tantangan IT menjadi keunggulan kompetitif melalui solusi end-to-end yang mendorong pertumbuhan bisnis.
           </div>
         </div>
 
